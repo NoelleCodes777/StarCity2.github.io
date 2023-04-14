@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star city</title>
+
+    <link rel="stylesheet" href="Star.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/20c8a444cc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Star.html"><img src="./img/Star logo.jpg"></a>
+            
+            <div class="navbar" id="navbar">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="#">Agent finder</a></li>
+                <li><a href="#">Buy </a></li>
+                <li><a href="#">Sell </a></li>
+                <li><a href="Contact.html">contact-us </a></li>
+                <li><a href="#">Services </a></li>
+                <li><a href="About.html">About Us </a></li>
+                <li><a href="#">Sign In</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>    
+            </div>
+        </nav>
+
+        <h1>Our Services</h1>
+    </section>
+
+    <!-- <About Us Content> -->
+
+        <section class="Services">
+
+            <div class="row">
+                <div class="Services-left">
+                    <img src="./img/splash.jpg">
+                    <h2>Our Services</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Placeat tenetur laudantium laborum maxime magni delectus provident eveniet dignissimos? Iure, 
+                         blanditiis eos ex ipsum assumenda illo similique voluptatum hic recusandae nisi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste at sint, aspernatur doloremque necessitatibus dolorum animi quod blanditiis ratione aliquid optio ipsum,
+                         debitis illo placeat exercitationem eligendi ab consectetur dolor.</p>
+                         <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt nam dolorem, quam ducimus maxime officiis saepe nihil aut voluptatem? 
+            Tempore ex numquam illo quo voluptas, porro sapiente quasi non nemo!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perspiciatis. Iste corrupti mollitia consequuntur sed ex, eligendi 
+                nobis aliquid repellat nulla aperiam eius aut, quidem optio tempore pariatur quisquam maxime.</p>
+
+                <div class="comment-box">
+
+                    <h3>leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter your Name">
+                        <input type="email" placeholder="Enter your Email">
+                        <textarea rows="5" placeholder="your comment"></textarea>
+                        <button type="submit" class="hero-btn red btn">Post comment</button>
+                    </form>
+                </div>
+                </div>
+                <div class="blog-right">
+                    <h3>Service categories</h3>
+                    <div>
+                        <span>Electrician</span>
+                        <span>View Profile</span>
+                    </div>
+
+                    <div>
+                        <span>Plumber</span>
+                        <span>View Profile</span>
+                    </div>
+
+                    <div>
+                        <span>Mason</span>
+                        <span>View Profile</span>
+                    </div>
+                    <div>
+                        <span>Tiler</span>
+                        <span>View Profile</span>
+                    </div>
+                    <div>
+                        <span>CCTV Technologies</span>
+                        <span>View Profile</span>
+                    </div>
+
+                    <div>
+                        <span>3D designer</span>
+                        <span>View Profile</span>
+                    </div>
+                </div>
+        </section>
+    
+    
+
+
+   
+               
+
+    <!-- Become a beneficiary -->
+
+     
+<hr>
+    <!-- footer -->
+    <section class="footer">
+
+
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi quisquam ex labore facere,
+             perspiciatis vero iusto sed nobis et molestiae consequuntur, 
+            architecto dolore eius laboriosam magnam illo illum! Quidem, maxime?</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i></p>
+</section>
+    <!-- javascript for toogle-menu -->
+
+    <script>
+        var navBar=document.getElementById("navbar");
+        function showMenu(){
+            navBar.style.right = "0";
+
+        }
+        function hideMenu(){
+            navBar.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
